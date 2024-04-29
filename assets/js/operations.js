@@ -45,7 +45,7 @@ const changeTitle = (newTitle) => {
 // Detectar cambios de visibilidad para cambiar el título
 document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') {
-        changeTitle("🙋‍♂️ Im Here att: Alejo"); // Cambiar el título cuando la pestaña está oculta
+        changeTitle("🙋 Im Here att: Alejo"); // Cambiar el título cuando la pestaña está oculta
     } else {
         changeTitle(" Ing. Andres Alejandro Ibarra"); // Restaurar el título cuando la pestaña vuelve a estar visible
     }
